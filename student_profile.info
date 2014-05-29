@@ -1,0 +1,4 @@
+name = Student profile 
+description = "Student profile"
+core = 7.x
+

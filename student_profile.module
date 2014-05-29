@@ -1,0 +1,8 @@
+<?php
+
+// hook_form_alter
+function student_profile_form_alter(&$form, &$form_state, $form_id) {
+	if($form_id == 'student_profile_node_form') {
+		drupal_add_css(drupal_get_path('module', 'student_profile'). '/css/student_profile.css');	
+	}
+}
